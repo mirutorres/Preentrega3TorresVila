@@ -1,9 +1,90 @@
+/*VARIABLES*/
 .logo {
   text-align: center;
   background-color: #bd9973;
 }
+.logo .imglog {
+  width: 120px;
+  height: 90px;
+}
 
-.imglog {
+.texto {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 25px;
+}
+
+ul {
+  list-style: none;
+  font-size: 28px;
+  align-content: center;
+}
+
+li {
+  display: inline;
+  margin: 20px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.carrusel {
+  padding: 10px;
+  width: 1600px;
+  height: 800px;
+  text-align: center;
+}
+
+.instagram {
+  text-align: center;
+  color: #91744c;
+  font-size: 50px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.imagenesloc {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+  margin: 160px;
+}
+
+.imagen1 {
+  width: 65px;
+  height: 60px;
+  display: inline;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logof {
+  text-align: left;
+  width: 110px;
+  height: 80px;
+  margin: 50px;
+}
+
+.foot {
+  background-color: #bd9973;
+}
+
+body {
+  margin: 8px;
+}
+
+.logoc {
+  text-align: center;
+  background-color: #bd9973;
+}
+.logoc .imgloc {
   width: 120px;
   height: 90px;
 }
